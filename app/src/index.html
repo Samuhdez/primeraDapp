@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeraDapp</title>
+  
+</head>
+<body>
+  <h1>Primera Dapp</h1>
+    <select id="tarea">
+      <option value="0">Elige opcion</option>
+      <option value="1">Guardar</option>
+      <option value="2">Consultar</option>
+    </select>
+    <div id="guardarInfo" style="display:none">
+      <br><br>
+      <label for="fecha">Introduce fecha: </label>
+      <input type="text" name="fecha" id="fecha">
+      <br><br>
+      <label for="destino">Introduce destino: </label>
+      <input type="text" name="destino" id="destino">
+      <br><br><label for="precio">Introduce precio: </label>
+      <input type="text" name="precio" id="precio">
+      <br><br>
+      <button id="btnGuardar">Guardar</button>
+    </div>
+    <div id="consultarInfo" style="display:none">
+      <br><br>
+      <label for="fecha">Introduce fecha: </label>
+      <input type="text" name="fecha_ver" id="fecha_ver">
+      <br><br>
+      <button id="btnConsultar">Consultar informacion</button>
+      <br><br>
+      <p id="resultado"> </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
